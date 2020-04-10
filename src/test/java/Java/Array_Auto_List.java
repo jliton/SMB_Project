@@ -7,7 +7,7 @@ public class Array_Auto_List {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+//
 		/* list=new ArrayList ();
 		list.add(10);
 		list.add("jabed");
