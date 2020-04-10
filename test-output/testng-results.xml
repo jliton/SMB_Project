@@ -2,16 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="71" started-at="2020-03-18T14:42:50 EDT" finished-at="2020-03-18T14:42:50 EDT">
+  <suite name="Default suite" duration-ms="1587" started-at="2020-04-10T14:18:16 EDT" finished-at="2020-04-10T14:18:17 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="71" started-at="2020-03-18T14:42:50 EDT" finished-at="2020-03-18T14:42:50 EDT">
-      <class name="Java.MapInterface">
-        <test-method status="PASS" signature="Test()[pri:0, instance:Java.MapInterface@458c1321]" name="Test" duration-ms="10" started-at="2020-03-18T14:42:50 EDT" finished-at="2020-03-18T14:42:50 EDT">
+    <test name="Default test" duration-ms="1587" started-at="2020-04-10T14:18:16 EDT" finished-at="2020-04-10T14:18:17 EDT">
+      <class name="Com.SMB.TestCase.ManagerFeature.AddingNewCustomerTest">
+        <test-method status="PASS" signature="setUps()[pri:0, instance:Com.SMB.TestCase.ManagerFeature.AddingNewCustomerTest@4e7912d8]" name="setUps" is-config="true" duration-ms="8662" started-at="2020-04-10T14:18:07 EDT" finished-at="2020-04-10T14:18:16 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test -->
-      </class> <!-- Java.MapInterface -->
+        </test-method> <!-- setUps -->
+        <test-method status="PASS" signature="AddCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Com.SMB.TestCase.ManagerFeature.AddingNewCustomerTest@4e7912d8]" name="AddCustomerTest" duration-ms="1437" started-at="2020-04-10T14:18:16 EDT" data-provider="dp" finished-at="2020-04-10T14:18:17 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jabed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Newaj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11432.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomerTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.SMB.TestCase.ManagerFeature.AddingNewCustomerTest@4e7912d8]" name="teardown" is-config="true" duration-ms="698" started-at="2020-04-10T14:18:18 EDT" finished-at="2020-04-10T14:18:18 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Com.SMB.TestCase.ManagerFeature.AddingNewCustomerTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

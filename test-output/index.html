@@ -6,7 +6,7 @@
   <title>TestNG reports</title>
 
     <link type="text/css" href="testng-reports.css" rel="stylesheet" />
-    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\AT\AppData\Local\Temp\testng-eclipse-2038959719\testng-customsuite.xml</span>
+                    <span>C:\Users\yuer\AppData\Local\Temp\testng-eclipse-1085236997\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Java.MapInterface" hash-for-method="Test">Test</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Com.SMB.TestCase.ManagerFeature.AddingNewCustomerTest" hash-for-method="AddCustomerTest(jabed, Newaj, 11432.0, Customer added successfully)">AddCustomerTest(jabed, Newaj, 11432.0, Customer added successfully)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,14 +120,15 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Java.MapInterface</span>
+              <span class="class-name">Com.SMB.TestCase.ManagerFeature.AddingNewCustomerTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Test">
-                  </a> <!-- Test -->
-                  <span class="method-name">Test</span>
+                  <a name="AddCustomerTest(jabed, Newaj, 11432.0, Customer added successfully)">
+                  </a> <!-- AddCustomerTest(jabed, Newaj, 11432.0, Customer added successfully) -->
+                  <span class="method-name">AddCustomerTest</span>
+                  <span class="parameters">(jabed, Newaj, 11432.0, Customer added successfully)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +136,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\AT\AppData\Local\Temp\testng-eclipse-2038959719\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\yuer\AppData\Local\Temp\testng-eclipse-1085236997\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,7 +145,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Java.MapInterface&quot;/&gt;
+      &lt;class name=&quot;Com.SMB.TestCase.ManagerFeature.AddingNewCustomerTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -186,14 +187,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Test')
-data.setCell(0, 2, 'Java.MapInterface')
-data.setCell(0, 3, 10);
+data.setCell(0, 1, 'AddCustomerTest')
+data.setCell(0, 2, 'Com.SMB.TestCase.ManagerFeature.AddingNewCustomerTest')
+data.setCell(0, 3, 1437);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 ms</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -219,11 +220,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Java.MapInterface</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">Test</span>
+              <div class="chronological-class-name">Com.SMB.TestCase.ManagerFeature.AddingNewCustomerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUps</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">AddCustomerTest(jabed, Newaj, 11432.0, Customer added successfully)</span>
+                <span class="method-start">8785 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">10280 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
