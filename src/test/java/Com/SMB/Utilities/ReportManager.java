@@ -7,7 +7,7 @@ public class ReportManager {
 	public static ExtentReports extent;
 	  public static ExtentReports GetIns() {
 		
-		  extent =new ExtentReports(System.getProperty("user.dir")+"\\target\\surefire-reports\\html\\Extend.html");
+		  extent =new ExtentReports(System.getProperty("user.dir")+"\\target\\surefire-reports\\html\\ExtendReport.html");
 		  
 		  
 		  

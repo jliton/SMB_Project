@@ -1,5 +1,7 @@
 package Com.SMB.TestCase.ManagerFeature;
 
+import java.net.MalformedURLException;
+
 import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.LogStatus;
@@ -10,14 +12,15 @@ import Com.SMB.POM.ForClick;
 import Com.SMB.POM.ForEditBox;
 import Com.SMB.Utilities.AlertHelp;
 import Com.SMB.Utilities.TestUtill;
+import Forgrid.Gridd;
 
 public class AddingNewCustomerTest extends TestBase {
 
 	@Test(dataProviderClass = TestUtill.class, dataProvider = "dp", priority = 1)
 
 	public void AddCustomerTest(String firstName, String lastName, String postCode, String alertTextDisplayed)
-			throws InterruptedException {
-
+			throws InterruptedException, MalformedURLException {
+		
 		if (ForAssertionTest.ifItDisplayed("Manager_Login_Button")) {
 
 			ForClick.ClickOn("Manager_Login_Button");
@@ -37,6 +40,7 @@ public class AddingNewCustomerTest extends TestBase {
 		ForClick.ClickOn("addCustomer");
 		AlertHelp.ForAlert(alertTextDisplayed);
 		//test.log(LogStatus.INFO, "Added customer succesfully....");
+		
 
 	}
 

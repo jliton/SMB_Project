@@ -3,6 +3,7 @@ package Com.SMB.Base;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.MalformedURLException;
 import java.util.NoSuchElementException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -24,6 +25,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import Com.SMB.POM.ForClick;
 import Com.SMB.Utilities.ExcelReader;
 import Com.SMB.Utilities.ReportManager;
+import Forgrid.Gridd;
 
 public class TestBase {
 
@@ -42,7 +44,6 @@ public class TestBase {
 	@BeforeSuite
 	public void setUps() throws IOException {
 		if (driver == null) {
-
 			fis = new FileInputStream(
 					System.getProperty("user.dir") + "\\src\\test\\resources\\Properties\\Config.properties");
 			config.load(fis);
@@ -86,8 +87,11 @@ public class TestBase {
 	}
 
 	@AfterSuite
-	public void teardown() {
+	public void teardown() throws MalformedURLException {
+		
+		
 		if (driver != null) {
+			
 		driver.quit();
 
 		
