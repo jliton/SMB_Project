@@ -2,24 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="497" started-at="2020-04-11T17:05:23 EDT" finished-at="2020-04-11T17:05:23 EDT">
+  <suite name="Default suite" duration-ms="1884" started-at="2020-05-14T23:46:42 EDT" finished-at="2020-05-14T23:46:44 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="497" started-at="2020-04-11T17:05:23 EDT" finished-at="2020-04-11T17:05:23 EDT">
-      <class name="Com.SMB.TestCase.ManagerFeature.ManagerFeature">
-        <test-method status="PASS" signature="setUps()[pri:0, instance:Com.SMB.TestCase.ManagerFeature.ManagerFeature@696da30b]" name="setUps" is-config="true" duration-ms="6892" started-at="2020-04-11T17:05:16 EDT" finished-at="2020-04-11T17:05:23 EDT">
+    <test name="Default test" duration-ms="1884" started-at="2020-05-14T23:46:42 EDT" finished-at="2020-05-14T23:46:44 EDT">
+      <class name="Com.SMB.TestCase.ManagerFeature.AddingNewCustomerTest">
+        <test-method status="PASS" signature="setUps()[pri:0, instance:Com.SMB.TestCase.ManagerFeature.AddingNewCustomerTest@e7edb54]" name="setUps" is-config="true" duration-ms="9313" started-at="2020-05-14T23:46:32 EDT" finished-at="2020-05-14T23:46:42 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUps -->
-        <test-method status="PASS" signature="LaunchingUrl()[pri:0, instance:Com.SMB.TestCase.ManagerFeature.ManagerFeature@696da30b]" name="LaunchingUrl" duration-ms="457" started-at="2020-04-11T17:05:23 EDT" finished-at="2020-04-11T17:05:23 EDT">
+        <test-method status="PASS" signature="AddCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Com.SMB.TestCase.ManagerFeature.AddingNewCustomerTest@e7edb54]" name="AddCustomerTest" duration-ms="1746" started-at="2020-05-14T23:46:42 EDT" data-provider="dp" finished-at="2020-05-14T23:46:44 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jabed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Newaj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11432.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchingUrl -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.SMB.TestCase.ManagerFeature.ManagerFeature@696da30b]" name="teardown" is-config="true" duration-ms="683" started-at="2020-04-11T17:05:23 EDT" finished-at="2020-04-11T17:05:24 EDT">
+        </test-method> <!-- AddCustomerTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.SMB.TestCase.ManagerFeature.AddingNewCustomerTest@e7edb54]" name="teardown" is-config="true" duration-ms="0" started-at="2020-05-14T23:46:44 EDT" finished-at="2020-05-14T23:46:44 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Com.SMB.TestCase.ManagerFeature.ManagerFeature -->
+      </class> <!-- Com.SMB.TestCase.ManagerFeature.AddingNewCustomerTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

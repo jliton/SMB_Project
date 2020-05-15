@@ -1,6 +1,5 @@
 package Com.SMB.TestCase.ManagerFeature;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import Com.SMB.Base.TestBase;

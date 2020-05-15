@@ -2,15 +2,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="2" name="Suite" parallel="tests" verbose="3">
   <parameter name="Browser" value="chrome"></parameter>
-  
-
-
-<test thread-count="2" name="Testc" parallel="tests">
- <classes>
- <class name="Com.SMB.TestCase.ManagerFeature.ManagerFeature"/>
+  <test thread-count="5" name="Test" parallel="tests">
  
- </classes>
+ 
+ 
+
+  
   </test> <!-- Test -->
+
+
 
 <test thread-count="2" name="Testd" parallel="tests">
  <classes>
